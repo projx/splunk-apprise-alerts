@@ -1,0 +1,15 @@
+<setup>
+    <block title="AppRise Alert Action">
+        <text>Configure</text>
+    </block>
+    <block title="AppRise Connection" endpoint="admin/alert_actions" entity="apprise_alert">
+        <input field="param.url">
+            <label>AppRise URL (Exc. key)</label>
+            <type>text</type>
+        </input>
+        <input field="param.secret_key">
+            <label>Secret Key (Not Used)</label>
+            <type>text</type>
+        </input>
+    </block>
+</setup>
